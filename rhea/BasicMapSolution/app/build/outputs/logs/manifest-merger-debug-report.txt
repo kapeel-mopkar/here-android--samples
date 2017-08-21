@@ -1,0 +1,169 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:2:1-70:12
+	package
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:2:70-105
+		INJECTED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:9:5-78
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:16:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:17:5-73
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:17:22-71
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:19:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:20:5-102
+	android:maxSdkVersion
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:20:73-99
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:20:22-72
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:21:22-65
+application
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:24:5-68:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\rhea_singh\.android\build-cache\a53fdbc27a16c0764bc694b4378cd978a329f41a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\rhea_singh\.android\build-cache\2bdf409d18149ba2acb8953591bef4f660a77910\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\rhea_singh\.android\build-cache\741a1ce1d334b3f71476f783aac93f5c325d8834\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\rhea_singh\.android\build-cache\5cb92f300610955b2c50a86fded00b2c5a8970f7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\rhea_singh\.android\build-cache\a7b009f18b834ce47021d890aed00e35df3a58bf\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\rhea_singh\.android\build-cache\9d7c442c55bb68431f6c0b5feed02fa4f4594986\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:24:115-147
+	android:hardwareAccelerated
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:24:45-79
+	android:allowBackup
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:24:18-44
+	android:icon
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:24:80-114
+activity#com.here.android.tutorial.BasicMapActivity
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:25:9-31:20
+	android:label
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:25:19-51
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:25:52-84
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:27:17-68
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:29:27-74
+meta-data#com.here.android.maps.appid
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:38:9-40:52
+	android:value
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:40:13-49
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:39:13-55
+meta-data#com.here.android.maps.apptoken
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:41:9-43:54
+	android:value
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:43:13-51
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:42:13-58
+meta-data#com.here.android.maps.license.key
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:44:9-46:716
+	android:value
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:46:13-713
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:45:13-61
+service#com.here.services.internal.LocationService
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:48:9-53:19
+	android:enabled
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:50:13-35
+	android:process
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:52:13-38
+	android:exported
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:49:13-70
+service#com.here.android.mpa.service.MapService
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:60:9-65:19
+	android:process
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:60:128-172
+	android:label
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:60:42-72
+	android:exported
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:60:18-41
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:60:73-127
+intent-filter#com.here.android.mpa.service.MapService.v3
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:61:13-64:29
+action#com.here.android.mpa.service.MapService.v3
+ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:62:17-63:26
+	android:name
+		ADDED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml:62:25-82
+uses-sdk
+INJECTED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [:HERE-sdk:] C:\Users\rhea_singh\.android\build-cache\c7f0b48cf7ca9267b72f5e2ba923169bdaefbd30\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\rhea_singh\.android\build-cache\a53fdbc27a16c0764bc694b4378cd978a329f41a\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\rhea_singh\.android\build-cache\2bdf409d18149ba2acb8953591bef4f660a77910\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\rhea_singh\.android\build-cache\741a1ce1d334b3f71476f783aac93f5c325d8834\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\rhea_singh\.android\build-cache\5cb92f300610955b2c50a86fded00b2c5a8970f7\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\rhea_singh\.android\build-cache\a7b009f18b834ce47021d890aed00e35df3a58bf\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\rhea_singh\.android\build-cache\9d7c442c55bb68431f6c0b5feed02fa4f4594986\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\rhea_singh\.android\build-cache\a53fdbc27a16c0764bc694b4378cd978a329f41a\output\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.3.1] C:\Users\rhea_singh\.android\build-cache\a53fdbc27a16c0764bc694b4378cd978a329f41a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\rhea_singh\.android\build-cache\2bdf409d18149ba2acb8953591bef4f660a77910\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\rhea_singh\.android\build-cache\741a1ce1d334b3f71476f783aac93f5c325d8834\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\rhea_singh\.android\build-cache\5cb92f300610955b2c50a86fded00b2c5a8970f7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\rhea_singh\.android\build-cache\a7b009f18b834ce47021d890aed00e35df3a58bf\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\rhea_singh\.android\build-cache\9d7c442c55bb68431f6c0b5feed02fa4f4594986\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\rhea_singh\.android\build-cache\a53fdbc27a16c0764bc694b4378cd978a329f41a\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\rhea_singh\.android\build-cache\a53fdbc27a16c0764bc694b4378cd978a329f41a\output\AndroidManifest.xml:26:9-47

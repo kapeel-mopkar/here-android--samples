@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="107697f316d2483c3eebaa60de9665316425a529">
+        <dex dex="C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ea4a0d21f26d01e30f06d7398bf374ef8005c098\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\rhea_singh\Downloads\HERE_Android_SDK_Premium_v3.4.0_165\HERE-sdk\HERE-sdk\tutorial\BasicMapSolution\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_5bf7bea0c0b01421ee4b17acce5b5d9ed8f7edc6\classes.dex" />
+    </item>
+
+</items>

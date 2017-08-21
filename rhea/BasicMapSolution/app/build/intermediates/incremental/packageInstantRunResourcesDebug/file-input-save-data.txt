@@ -1,0 +1,27 @@
+#Internal package file, do not edit.
+#Mon Aug 21 15:57:55 IST 2017
+2.base=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.file=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
+5.set=ANDROID_RESOURCE
+3.base=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_
+6.file=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-xxhdpi-v4\\ic_launcher.png
+2.set=ANDROID_RESOURCE
+4.base=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_
+7.file=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-mdpi-v4\\ic_launcher.png
+7.set=ANDROID_RESOURCE
+count=8
+0.file=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-xhdpi-v4\\ic_launcher.png
+5.base=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.set=ANDROID_RESOURCE
+6.base=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\activity_main.xml
+1.set=ANDROID_RESOURCE
+7.base=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_
+2.file=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\mipmap-hdpi-v4\\ic_launcher.png
+6.set=ANDROID_RESOURCE
+0.base=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+3.set=ANDROID_RESOURCE
+1.base=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+0.set=ANDROID_RESOURCE

@@ -1,0 +1,102 @@
+[
+    {
+        "outputFile": "C:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 88,
+                        "endColumn": 57,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "C:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 55,
+                        "endOffset": 197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 52,
+                    "endOffset": 217
+                },
+                "from": {
+                    "file": "C:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 124,
+                        "endColumn": 52,
+                        "endOffset": 172
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 222,
+                    "endColumn": 53,
+                    "endOffset": 271
+                },
+                "from": {
+                    "file": "C:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 53,
+                        "endOffset": 65
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 276,
+                    "endColumn": 52,
+                    "endOffset": 324
+                },
+                "from": {
+                    "file": "C:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 71,
+                        "endColumn": 52,
+                        "endOffset": 119
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,7 @@
+#Mon Aug 21 15:57:59 IST 2017
+base.0=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ea4a0d21f26d01e30f06d7398bf374ef8005c098
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5bf7bea0c0b01421ee4b17acce5b5d9ed8f7edc6\\classes.dex
+base.1=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5bf7bea0c0b01421ee4b17acce5b5d9ed8f7edc6
+file.0=C\:\\Users\\rhea_singh\\Downloads\\HERE_Android_SDK_Premium_v3.4.0_165\\HERE-sdk\\HERE-sdk\\tutorial\\BasicMapSolution\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ea4a0d21f26d01e30f06d7398bf374ef8005c098\\classes.dex
