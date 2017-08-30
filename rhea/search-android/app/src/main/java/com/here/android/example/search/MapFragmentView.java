@@ -23,10 +23,13 @@ import java.util.List;
 import com.here.android.mpa.common.GeoCoordinate;
 import com.here.android.mpa.common.Image;
 import com.here.android.mpa.common.OnEngineInitListener;
+import com.here.android.mpa.common.ViewObject;
 import com.here.android.mpa.mapping.Map;
 import com.here.android.mpa.mapping.MapFragment;
+import com.here.android.mpa.mapping.MapGesture;
 import com.here.android.mpa.mapping.MapMarker;
 import com.here.android.mpa.mapping.MapObject;
+import com.here.android.mpa.mapping.MapScreenMarker;
 import com.here.android.mpa.search.AroundRequest;
 import com.here.android.mpa.search.Category;
 import com.here.android.mpa.search.CategoryFilter;
@@ -41,6 +44,7 @@ import com.here.android.mpa.search.SearchRequest;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.PointF;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -58,6 +62,7 @@ public class MapFragmentView {
     private Button m_placeDetailButton;
     private List<MapObject> m_mapObjectList = new ArrayList<>();
     private float range;
+    private Routing routingInstance;
 
     public MapFragmentView(Activity activity) {
         m_activity = activity;
@@ -69,6 +74,7 @@ public class MapFragmentView {
         initSearchControlButtons();
         /* We use a list view to present the search results */
         initResultListButton();
+        routingInstance=new Routing(m_activity);
     }
 
     private void initMapFragment() {
@@ -76,24 +82,136 @@ public class MapFragmentView {
         m_mapFragment = (MapFragment) m_activity.getFragmentManager()
                 .findFragmentById(R.id.mapfragment);
 
-        if (m_mapFragment != null) {
-            /* Initialize the MapFragment, results will be given via the called back. */
+        /* Initialize the MapFragment, results will be given via the called back. */
+        if (m_mapFragment != null)
             m_mapFragment.init(new OnEngineInitListener() {
                 @Override
-                public void onEngineInitializationCompleted(OnEngineInitListener.Error error) {
+                public void onEngineInitializationCompleted(Error error) {
                     if (error == Error.NONE) {
                         m_map = m_mapFragment.getMap();
                         m_map.setCenter(new GeoCoordinate(49.259149, -123.008555),
                                 Map.Animation.NONE);
                         m_map.setZoomLevel(13.2);
+
+                        m_mapFragment.getPositionIndicator().setVisible(true);
+
+                        m_mapFragment.getMapGesture()
+                                .addOnGestureListener(new MapGesture.OnGestureListener() {
+                                    @Override
+                                    public void onPanStart() {
+                                        //showMsg("onPanStart");
+                                    }
+
+                                    @Override
+                                    public void onPanEnd() {
+                                        /* show toast message for onPanEnd gesture callback */
+                                        //showMsg("onPanEnd");
+                                    }
+
+                                    @Override
+                                    public void onMultiFingerManipulationStart() {
+
+                                    }
+
+                                    @Override
+                                    public void onMultiFingerManipulationEnd() {
+
+                                    }
+
+                                    @Override
+                                    public boolean onTapEvent(PointF pointF) {
+
+                                        return false;
+                                    }
+
+                                    @Override
+                                    public boolean onMapObjectsSelected(List<ViewObject> objects) {
+                                        // TODO Auto-generated method stub
+
+                                        if(objects.size()>1)
+                                            Toast.makeText(m_activity.getApplicationContext(),"Select 1 Point",Toast.LENGTH_LONG).show();
+                                        else {
+                                            for (ViewObject viewObject : objects) {
+//                                            if (viewObject.getBaseType() == ViewObjectType.USER_OBJECT) {
+
+                                                MapObject mapObject = (MapObject) viewObject;
+//                                                if (mapObject.getType() == MapObjectType.MARKER) {
+                                                MapMarker marker = FindObject((MapMarker) mapObject);
+                                                if (marker != null) {
+                                                    Image img1 = new Image();
+                                                    try {
+                                                        img1.setImageResource(R.mipmap.destination);
+                                                    } catch (IOException e) {
+                                                        e.printStackTrace();
+                                                    }
+                                                    marker.setIcon(img1);
+                                                    routingInstance.initCreateRouteButton(new GeoCoordinate(49.259149, -123.008555), marker.getCoordinate(), m_map);
+
+                                                }
+//                                                    return false;
+//                                                }
+//                                            }
+                                            }
+                                        }
+                                        return false;
+                                    }
+
+                                    @Override
+                                    public boolean onDoubleTapEvent(PointF pointF) {
+                                        return false;
+                                    }
+
+                                    @Override
+                                    public void onPinchLocked() {
+
+                                    }
+
+                                    @Override
+                                    public boolean onPinchZoomEvent(float v, PointF pointF) {
+                                        return false;
+                                    }
+
+                                    @Override
+                                    public void onRotateLocked() {
+
+                                    }
+
+                                    @Override
+                                    public boolean onRotateEvent(float v) {
+                                        /* show toast message for onRotateEvent gesture callback */
+                                        //showMsg("onRotateEvent");
+                                        return false;
+                                    }
+
+                                    @Override
+                                    public boolean onTiltEvent(float v) {
+                                        return false;
+                                    }
+
+                                    @Override
+                                    public boolean onLongPressEvent(PointF pointF) {
+                                        return false;
+                                    }
+
+                                    @Override
+                                    public void onLongPressRelease() {
+
+                                    }
+
+                                    @Override
+                                    public boolean onTwoFingerTapEvent(PointF pointF) {
+                                        return false;
+                                    }
+                                });
                     } else {
                         Toast.makeText(m_activity,
                                 "ERROR: Cannot initialize Map with error " + error,
                                 Toast.LENGTH_LONG).show();
                     }
+
+
                 }
             });
-        }
 
     }
 
@@ -194,6 +312,8 @@ public class MapFragmentView {
 //                searchRequest.execute(discoveryResultPageListener);
 //            }
 //        });
+
+
     }
 
     private ResultListener<DiscoveryResultPage> discoveryResultPageListener = new ResultListener<DiscoveryResultPage>() {
@@ -243,6 +363,18 @@ public class MapFragmentView {
         mapMarker.setCoordinate(new GeoCoordinate(placeLink.getPosition()));
         m_map.addMapObject(mapMarker);
         m_mapObjectList.add(mapMarker);
+    }
+
+    public MapMarker FindObject(MapMarker marker){
+
+        MapMarker ret = null;
+        for (int i = 0; i < m_mapObjectList.size(); i++)
+        {
+            if (m_mapObjectList.get(i).hashCode() == marker.hashCode()) {
+                ret = (MapMarker) m_mapObjectList.get(i);
+            }
+        }
+        return ret;
     }
 
     private void cleanMap() {
