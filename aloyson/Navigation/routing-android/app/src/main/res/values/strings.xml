@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="Source">Source</string>
+    <string name="Destination">Destination</string>
+    <string name="search_start">Source</string>
+    <string name="search_des">Destination</string>
+</resources>
