@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <!-- Map Fragment embedded with the map object -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--<ListView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="391dp"-->
+        <!--android:id="@android:id/list" />-->
+
+        <!--<Button-->
+        <!--android:text="Around"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/aroundRequestBtn"-->
+        <!--android:layout_weight="1" />-->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Enter Step-count"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/editsteps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/button"
+            android:layout_toLeftOf="@+id/button"
+            android:layout_toRightOf="@+id/textView"
+            android:layout_toStartOf="@+id/button"
+            android:layout_weight="0.36"
+            android:inputType="number"
+            android:text="" />
+
+        <Button
+            android:id="@+id/exploreRequestBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.17"
+            android:text="Explore" />
+        
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <fragment
+            class="com.here.android.mpa.mapping.MapFragment"
+            android:id="@+id/mapfragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/resultListBtn"
+            android:layout_toEndOf="@+id/resultListBtn"
+            android:layout_alignParentTop="true" />
+
+        <Button
+            android:id="@+id/resultListBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:contextClickable="false"
+            android:text="Result List"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressTextView"
+            android:layout_toEndOf="@+id/resultListBtn"
+            android:layout_toRightOf="@+id/resultListBtn" />
+
+        <Button
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancelBtn"
+            android:layout_alignBottom="@+id/mapUpdateBtn" />
+        <Button
+            android:id="@+id/mapUpdateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/resultListBtn"
+            android:layout_weight="1"
+            android:text="Update" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="wrap_content"
+        android:layout_height="139dp" />
+
+</LinearLayout>
