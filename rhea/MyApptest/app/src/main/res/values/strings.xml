@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyApptest</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="Source">Source</string>
+    <string name="Destination">Destination</string>
+    <string name="search_start">Source</string>
+    <string name="search_des">Destination</string>
+    <string name="action_settings">Settings</string>
+    <string name="tap_start_point">tap start point</string>
+    <string name="tap_end_point">tap end point</string>
+</resources>
